@@ -45,8 +45,8 @@ def test_java_result_java():
 
 def test_java_python_result_java_python():
     # arrange
-    stringToSplit = "java"
-    expResult = ["java"]
+    stringToSplit = "java, python"
+    expResult = ["java", "python"]
     result = None
     cut = TagManipulator()
 
